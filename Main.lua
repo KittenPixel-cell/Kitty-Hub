@@ -74,7 +74,7 @@ if game.PlaceId == 1962086868 or game.PlaceId == 3582763398 then
 		local script = Instance.new('LocalScript', Load)
  
 		script.Parent.MouseButton1Click:Connect(function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/KittenPixel-cell/Kitty-Hub/main/Tower%20Of%20Hell.lua"), true)()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/KittenPixel-cell/Kitty-Hub/main/Tower%20Of%20Hell"), true)()
 			KittyHubLoader:Destroy()
 		end)
 	end
